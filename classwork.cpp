@@ -130,16 +130,69 @@
 
 
 
+// #include<bits/stdc++.h>
+// using namespace std;
+// int facto(int n){
+//     if(n == 1){
+//         return 1;
+//     }
+//     else if( n == 2){
+//         return 2;
+//     }
+//     else{
+//         return n
+//     }
+ // }
+
+ 
+// #include<bits/stdc++.h>
+// using namespace std;
+// class student{
+//     public:
+//     float height;
+//     int data;
+
+// };
+// int main(){
+//     student s1;
+//     s1.data = 20;
+//     s1.height = 5.6;
+//     cout<<s1.data;
+// }
+
+
+
+
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// class student{
+//     public:
+//     student(){
+//         int n;
+//         cin>>n;
+//         int ans=0;
+//         while(n){
+//             ans=ans*10+n%10;
+//             n/=10;
+//         }
+//         cout<<ans<<endl;
+//     };
+    
+
+
+// };
+// int main(){
+//     student s1;
+// }
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
-int facto(int n){
-    if(n == 1){
-        return 1;
-    }
-    else if( n == 2){
-        return 2;
-    }
-    else{
-        return n
-    }
+int main(){
+    int x = 2;
+    int *ptr = &x;
+    cout<<ptr;
+    cout<<*ptr;
 }

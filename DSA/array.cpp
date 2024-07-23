@@ -141,13 +141,13 @@
 //     int n;
 //     int i;
 //     int arr[10];
-//     cout<<"ENTER NUMBER "<<endl;
+//     cout<<"ENTER NUMBER ";
 //     for(i=0;i<10;i++){
 //         cin>>arr[i];
 //     }
 //     cout<<"REVERSE ARRAY IS "<<endl;
 //     for(i=9;i>=0;i--){
-//         cout<<arr[i]<<endl;
+//         cout<<arr[i]<<" ";
 //     }
 //     return 0;
 // }
@@ -162,9 +162,9 @@
 //     for(i=0;i<5;i++){
 //         cin>>arr[i];
 //     }
-//     int mini = arr[0];
+//     int mini = arr[0];9
 //     for(i=0;i<5;i++){
-//         if(mini<arr[i]){
+//         if(mini>arr[i]){
 //             mini = arr[i];
 //         }
 
@@ -172,4 +172,30 @@
 //     }
 //     cout<<"minimum number is "<<mini;
 //     return 0;
+// }
+
+
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"enter number ";
+//     cin>>n;
+    
+//     int arr[n];
+//     for(int i = 0;i<n;i++ ){
+//         cin>>arr[i];
+//     }
+//     int end = n-1;
+//     for(int start = 0; start<=end ; start++ ){
+//         if(start == end){
+//             cout<<arr[start]<<" ";
+//             break;
+//         }
+//         cout<<arr[start]<<" ";
+//         cout<<arr[end]<<" ";
+        
+//         end--;
+//     }
 // }
