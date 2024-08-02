@@ -188,11 +188,307 @@
 
 
 
-#include<bits/stdc++.h>
+// #include <iostream>
+// using namespace std;
+
+// class Rectangle {
+// private:
+//     int length;
+//     int breadth;
+
+// public:
+//     void setDimensions(int l, int b) {
+//         length = l;
+//         breadth = b;
+//     }
+
+ 
+//     int calculateArea() {
+//         return length * breadth;
+//     }
+
+
+//     int calculatePerimeter() {
+//         return 2 * (length + breadth);
+//     }
+// };
+
+// int main() {
+//     Rectangle rect;
+//     int length, breadth;
+
+//     cout << "ENTER LENGTH: ";
+//     cin >> length;
+
+//     cout << "ENTER BREADTH: ";
+//     cin >> breadth;
+
+//     rect.setDimensions(length, breadth);
+
+   
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// class Rectangle {
+// private:
+//     int length;
+//     int breadth;
+
+// public:
+//     // Constructor to initialize length and breadth
+//     Rectangle(int l, int b) {
+//         length = l;
+//         breadth = b;
+//     }
+
+//     // Function to calculate area
+//     int calculateArea() {
+//         return length * breadth;
+//     }
+
+//     // Function to calculate perimeter
+//     int calculatePerimeter() {
+//         return 2 * (length + breadth);
+//     }
+// };
+
+// int main() {
+//     int length, breadth;
+
+//     cout << "ENTER LENGTH: ";
+//     cin >> length;
+
+//     cout << "ENTER BREADTH: ";
+//     cin >> breadth;
+
+//     // Create a Rectangle object with the provided dimensions
+//     Rectangle rect(length, breadth);
+
+//     // Calculate and display area and perimeter
+//     cout << "Area: " << rect.calculateArea() << endl;
+//     cout << "Perimeter: " << rect.calculatePerimeter() << endl;
+
+//     return 0;
+// }
+
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// class Rectangle {
+// private:
+//     int length;
+//     int breadth;
+
+// public:
+//     // Constructor to initialize length and breadth
+//     Rectangle(int l, int b) {
+//         length = l;
+//         breadth = b;
+//     }
+
+//     // Function to calculate area
+//     int calculateArea() {
+//         return length * breadth;
+//     }
+
+//     // Function to calculate perimeter
+//     int calculatePerimeter() {
+//         return 2 * (length + breadth);
+//     }
+
+//     // Destructor (no explicit cleanup needed in this case)
+//     ~Rectangle() {
+//         // Optionally, you can add cleanup code here if necessary
+//         cout << "Rectangle object destroyed." << endl;
+//     }
+// };
+
+// int main() {
+//     int length, breadth;
+
+//     cout << "ENTER LENGTH: ";
+//     cin
+// }
+
+
+// #include<iostream>
+// int main(){
+//     string s[] = "abcdianjyp";
+//     for(int i = 0 ; i <s.size(); i++){
+//         if(s[i] == "i"){
+            
+//             cout<<i<<endl;
+//         }
+//     }
+// }
+
+
+
+// #include <iostream>
+// #include <string>
+
+// int main() {
+//     std::string s = "abcdianjyp";
+//     for (int i = 0; i < s.size(); i++) {
+//         if (s[i] == 'i') { 
+//             std::cout << i;
+//         }
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main() {
+//     int arr[] = {1, 1, 0, 1, 1, 1, 0, 0, 1, 1, ,1,1, 0, 0, 0, 0};
+//     int size = sizeof(arr) / sizeof(arr[0]);
+//     int maxConsecutiveOnes = 0;
+//     int currentConsecutiveOnes = 0;
+
+//     for (int i = 0; i < size; i++) {
+//         if (arr[i] == 1) {
+//             currentConsecutiveOnes++;
+//         } else {
+//             currentConsecutiveOnes = 0;
+//         }
+
+//         if (currentConsecutiveOnes > maxConsecutiveOnes) {
+//             maxConsecutiveOnes = currentConsecutiveOnes;
+//         }
+//         // cout<<currentConsecutiveOnes<<endl;
+//     }
+
+//     cout << "Maximum number of consecutive ones: " << maxConsecutiveOnes << endl;
+
+//     return 0;
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main() {
+//     int arr[] = {1, 1, 0, 1, 1, 1, 0, 0, 1 , 1 , 1 , 1 , 0, 0, 0, 0};
+//     int size = sizeof(arr) / sizeof(arr[0]);
+//     int maxConsecutiveOnes = 0;
+//     int currentConsecutiveOnes = 0;
+
+    // for (int i = 0; i < size; i++) {
+    //     if (arr[i] == 1) {
+    //         currentConsecutiveOnes++;
+    //     } else {
+    //         currentConsecutiveOnes = 0;
+    //     }
+
+    //     if (currentConsecutiveOnes > maxConsecutiveOnes) {
+    //         maxConsecutiveOnes = currentConsecutiveOnes;
+    //     }
+
+    // }
+
+    // cout << "Maximum number of consecutive ones: " << maxConsecutiveOnes << endl;
+
+//     return 0;
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// class students {
+// private:
+//     string name;
+//     int id;
+//     int arr[5];
+//     int total = 0;
+
+// public:
+
+//     students() {
+//         cout << "Input name and ID: ";
+//         cin >> name >> id;
+
+//         for (int i = 0; i < 5; i++) {
+//             cout << "Enter the marks " << i + 1 << ": ";
+//             cin >> arr[i];
+//             total += arr[i];
+//         }
+//         cout << "Average marks: " << total / 5 << endl;
+//     }
+
+   
+//     ~students() {
+//         cout << "Student object destroyed." << endl;
+//     }
+// };
+
+// int main() {
+//     students aaryan;
+//     return 0;
+// }
+
+
+#include <iostream>
+#include <string>
 using namespace std;
-int main(){
-    int x = 2;
-    int *ptr = &x;
-    cout<<ptr;
-    cout<<*ptr;
+
+class students {
+private:
+    string name;
+    string id;
+    int grades[5];
+
+public:
+    // Constructor to initialize the name
+    students(string studentName) {
+        name = studentName;
+    }
+
+    // Method to set the ID
+    void setID(string studentID) {
+        id = studentID;
+    }
+
+    // Method to set grades
+    void setGrades(int gradeArray[5]) {
+        for (int i = 0; i < 5; i++) {
+            grades[i] = gradeArray[i];
+        }
+    }
+
+    // Method to calculate and return the average grade
+    double averageGrade() {
+        int total = 0;
+        for (int i = 0; i < 5; i++) {
+            total += grades[i];
+        }
+        return static_cast<double>(total) / 5;
+    }
+
+    // Method to print student details
+    void printDetails() {
+        cout << "Name: " << name << ", ID: " << id << ", Average Grade: " << averageGrade() << endl;
+    }
+};
+
+int main() {
+    
+    students student1("Arun");
+    student1.setID("S12345");
+    int grades[5] = {85, 90, 78, 92, 88};
+    student1.setGrades(grades);
+    student1.printDetails();
+    return 0;
 }
+

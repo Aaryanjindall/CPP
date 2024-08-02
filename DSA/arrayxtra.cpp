@@ -34,6 +34,27 @@
 
 
 
+// int i;
+//         int l =0;
+//         int m=0;
+//         int h = nums.size()-1;
+//         while(m<=h){
+//             if(nums[m]==0){
+//                 swap(nums[l],nums[m]);
+//                 l++,m++;
+//             }
+//             else if(nums[m]==1){
+//                 m++;
+//             }
+//             else{
+//                 swap(nums[m],nums[h]);
+//                 h--;
+//             }
+
+//         }
+
+
+
 // #include<bits/stdc++.h>
 // using namespace std;
 // int main(){
@@ -58,4 +79,43 @@
 //     }
 //     cout<<endl;
 //     cout<<size;
+// }
+
+
+
+
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// void waveprintmatrix(vector<vector<int>> v) {
+//     int m = v.size(); // number of rows
+//     int n = v[0].size(); // number of columns
+
+//     for (int startcol = 0; startcol < n; startcol++) {
+//         if ((startcol & 1) == 0) {
+//             for (int i = 0; i < m; i++) {
+//                 cout << v[i][startcol] << " ";
+//             }
+//         } else {
+//             for (int i = m - 1; i >= 0; i--) {
+//                 cout << v[i][startcol] << " ";
+//             }
+//         }
+//     }
+//     cout << endl; // to ensure the output ends with a newline
+// }
+
+// int main() {
+//     vector<vector<int>> v = {
+//         {1, 2, 3, 4},
+//         {5, 6, 7, 8},
+//         {9, 10, 11, 12},
+//         {13, 14, 15, 16},
+//         {17, 18, 19, 20}
+//     };
+
+//     waveprintmatrix(v);
+
+//     return 0;
 // }

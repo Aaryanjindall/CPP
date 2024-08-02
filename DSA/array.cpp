@@ -162,10 +162,11 @@
 //     for(i=0;i<5;i++){
 //         cin>>arr[i];
 //     }
-//     int mini = arr[0];9
+//     int mini = arr[0];
 //     for(i=0;i<5;i++){
 //         if(mini>arr[i]){
 //             mini = arr[i];
+//             break;
 //         }
 
 

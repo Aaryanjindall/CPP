@@ -168,10 +168,3 @@
 
 
 
-#include<bits/stdc++.h>
-using namespace std;
-vector<int>arr{0,1,0,1,1,0,1,0,1,1};
-int start = 0;
-int end = arr.size() -1;
-int i = 0;
-while(i < arr.size())
