@@ -118,47 +118,46 @@
 
 
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// bool findKey(int arr[][3], int rows, int cols, int key, int &row, int &col) {
-//     for (int i = 0; i < rows; i++) {
-//         for (int j = 0; j < cols; j++) {
-//             if (arr[i][j] == key) {
-//                 row = i;
-//                 col = j;
-//                 return true;
-//             }
-//         }
-//     }
-//     return false;
-// }
+bool findKey(int arr[][3], int rows, int cols, int key, int &row, int &col) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            if (arr[i][j] == key) {
+                row = i;
+                col = j;
+                return true;
+            }
+        }
+    }
+    return false;
+}
 
-// int main() {
-//     int arr[3][3];
-//     int rows = 3;
-//     int cols = 3;
-//     int i, j;
-//     for (i = 0; i < rows; i++) {
-//         for (j = 0; j < cols; j++) {
-//             cout << "Enter number: ";
-//             cin >> arr[i][j];
-//         }
-//     }
+int main() {
+    int arr[3][3];
+    int rows = 3;
+    int cols = 3;
+    int i, j;
+    for (i = 0; i < rows; i++) {
+        for (j = 0; j < cols; j++) {
+            cout << "Enter number: ";
+            cin >> arr[i][j];
+        }
+    }
 
-//     int key;
-//     cout << "Enter key to find: ";
-//     cin >> key;
+    int key;
+    cout << "Enter key to find: ";
+    cin >> key;
+    int foundRow, foundCol;
+    if (findKey(arr, rows, cols, key, foundRow, foundCol)) {
+        cout << "Key found at [" << foundRow << "][" << foundCol << "]" << endl;
+    } else {
+        cout << "Key not found" << endl;
+    }
 
-//     int foundRow, foundCol;
-//     if (findKey(arr, rows, cols, key, foundRow, foundCol)) {
-//         cout << "Key found at [" << foundRow << "][" << foundCol << "]" << endl;
-//     } else {
-//         cout << "Key not found" << endl;
-//     }
-
-//     return 0;
-// }
+    return 0;
+}
 
 
 

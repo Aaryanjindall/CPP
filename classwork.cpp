@@ -439,56 +439,91 @@
 // }
 
 
-#include <iostream>
-#include <string>
+
+
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+// class students {
+// private:
+//     string name;
+//     string id;
+//     int grades[5];
+
+// public:
+//     // Constructor to initialize the name
+//     students(string studentName) {
+//         name = studentName;
+//     }
+
+//     // Method to set the ID
+//     void setID(string studentID) {
+//         id = studentID;
+//     }
+
+//     // Method to set grades
+//     void setGrades(int gradeArray[5]) {
+//         for (int i = 0; i < 5; i++) {
+//             grades[i] = gradeArray[i];
+//         }
+//     }
+
+//     // Method to calculate and return the average grade
+//     double averageGrade() {
+//         int total = 0;
+//         for (int i = 0; i < 5; i++) {
+//             total += grades[i];
+//         }
+//         return static_cast<double>(total) / 5;
+//     }
+
+//     // Method to print student details
+//     void printDetails() {
+//         cout << "Name: " << name << ", ID: " << id << ", Average Grade: " << averageGrade() << endl;
+//     }
+// };
+
+// int main() {
+    
+//     students student1("Arun");
+//     student1.setID("S12345");
+//     int grades[5] = {85, 90, 78, 92, 88};
+//     student1.setGrades(grades);
+//     student1.printDetails();
+//     return 0;
+// }
+
+
+#include <bits/stdc++.h>
 using namespace std;
 
-class students {
-private:
-    string name;
-    string id;
-    int grades[5];
-
-public:
-    // Constructor to initialize the name
-    students(string studentName) {
-        name = studentName;
-    }
-
-    // Method to set the ID
-    void setID(string studentID) {
-        id = studentID;
-    }
-
-    // Method to set grades
-    void setGrades(int gradeArray[5]) {
-        for (int i = 0; i < 5; i++) {
-            grades[i] = gradeArray[i];
-        }
-    }
-
-    // Method to calculate and return the average grade
-    double averageGrade() {
-        int total = 0;
-        for (int i = 0; i < 5; i++) {
-            total += grades[i];
-        }
-        return static_cast<double>(total) / 5;
-    }
-
-    // Method to print student details
-    void printDetails() {
-        cout << "Name: " << name << ", ID: " << id << ", Average Grade: " << averageGrade() << endl;
-    }
-};
-
 int main() {
-    
-    students student1("Arun");
-    student1.setID("S12345");
-    int grades[5] = {85, 90, 78, 92, 88};
-    student1.setGrades(grades);
-    student1.printDetails();
+    int arr[] = {1, 2, 3, 0, 0, 0};
+    int sizea = 6;
+    int brr[] = {2, 5, 6};
+    int sizeb = 3;
+    int j = 0; 
+
+    for (int i = 0; i < sizea; i++) {
+        if (arr[i] == 0 && j < sizeb) {
+            arr[i] = brr[j];
+            j++;
+        }
+    }
+
+    for (int i = 0; i < sizea; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    for(int i = 0 ; i<sizea ; i++){
+        
+        
+    }
+
+
     return 0;
 }
+
 
