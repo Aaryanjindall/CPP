@@ -495,35 +495,44 @@
 // }
 
 
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main() {
+//     int arr[] = {1, 2, 3, 0, 0, 0};
+//     int sizea = 6;
+//     int brr[] = {2, 5, 6};
+//     int sizeb = 3;
+//     int j = 0; 
+
+//     for (int i = 0; i < sizea; i++) {
+//         if (arr[i] == 0 && j < sizeb) {
+//             arr[i] = brr[j];
+//             j++;
+//         }
+//     }
+
+//     for (int i = 0; i < sizea; i++) {
+//         cout << arr[i] << " ";
+//     }
+//     cout << endl;
+
+//     for(int i = 0 ; i<sizea ; i++){
+        
+        
+//     }
+
+
+//     return 0;
+// }
+
+
+#include<iostream>
 using namespace std;
-
-int main() {
-    int arr[] = {1, 2, 3, 0, 0, 0};
-    int sizea = 6;
-    int brr[] = {2, 5, 6};
-    int sizeb = 3;
-    int j = 0; 
-
-    for (int i = 0; i < sizea; i++) {
-        if (arr[i] == 0 && j < sizeb) {
-            arr[i] = brr[j];
-            j++;
-        }
+int main(){
+    int arr[] = {2,-2,1,4,-5,0};
+    for(int i = 0; i<6 ;i++ ){
+        for
     }
 
-    for (int i = 0; i < sizea; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-
-    for(int i = 0 ; i<sizea ; i++){
-        
-        
-    }
-
-
-    return 0;
 }
-
-
