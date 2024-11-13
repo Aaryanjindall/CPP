@@ -527,12 +527,13 @@
 // }
 
 
+
+
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[] = {2,-2,1,4,-5,0};
-    for(int i = 0; i<6 ;i++ ){
-        for
-    }
-
+    int a = 10;
+    cout<<a<<endl;
+    cout<<&a<<endl;
+    return 0;
 }
